@@ -6,7 +6,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <base href="{{asset()}}" />
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css\mycustom.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- font awsome -->
@@ -92,6 +94,399 @@
         <!-- //end banner -->
     </div>
     <!-- //end slider -->
+
+    <!-- Admin -->
+    <!--  Tabs Admin  -->
+    <div id="ticked" class="container">
+        <div id="" class="header" role="tablist">  
+            <ul class="nav nav-tabs">
+                <li class="nav-item nav-link">
+                    <a class="nav-link" href="#">Staff</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a class="nav-link" href="#">Location</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a class="nav-link" href="#">Trip</a>
+                </li>
+                <li class="nav-item nav-link">
+                    <a class="nav-link" href="#">Coach</a>
+                </li>                
+                <li class="nav-item nav-link">
+                    <a class="nav-link" href="#">Schedule</a>
+                </li>
+            </ul>
+        </div>
+        <!-- staff -->
+        <div class="contents-cus" style="min-height: 850px;">
+            <div class="">
+                <nav class="nav navbar-light bg-light justify-content-between">
+                    <span class="navbar-brand mb-2 h1"> Navbar </span>
+                </nav>
+            </div>
+            <hr>
+            <div class="container" id="">
+                <div class="row">
+                    <table class="table table-striped table-bordered" id="dataTable-example">
+                        <thead>
+                            <tr align="center">
+                                <th scope="col">ID</th>
+                                <th scope="col">User Name</th>
+                                <th scope="col">Full Name</th>
+                                <th scope="col">Passworld</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- chạy vòng lập foreach để tạo thành bảng csdl -->
+                            <tr class="odd grandeX">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td align="center" ><i class="fa fa-trash-0 fa-fw" ><a href="#">Delete</a></i></td>
+                                <td align="center"><i class="fa fa-pencil-0 fa-fw" ><a href="#">Edit</a></i></td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="text-right">
+                    <button type="button" class="btn btn-primary btn-lg" style="min-width: 150px;">Add Info</button>                
+                </div>                   
+            </div>
+        </div>        
+    </div>
+        <!-- location -->
+            <div class="contents-cus" style="min-height: 850px;">
+            <div class="">
+                <nav class="nav navbar-light bg-light justify-content-sm-between">
+                    <span class="navbar-brand mb-2 h1">navbar</span>
+                </nav>
+            </div>
+            <hr>
+            <div class="container" id="">
+                <div class="row">
+                    <table class="table table-striped table-bordered" id="dataTable-example">
+                        <thead>
+                            <tr align="center">
+                                <th scope="col">ID</th>
+                                <th scope="col">Location Name</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- chạy vòng lập foreach để tạo thành bảng csdl -->
+                            <tr class="odd grandeX">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td align="center"><i class="fa fa-trash-0 fa-fw" ><a href="#">Delete</a></i></td>
+                                <td align="" ="center"><i class="fa fa-pencil-0 fa-fw" ><a href="#">Edit</a></i></td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="text-right">
+                    <button type="button" class="btn btn-primary btn-lg" style="min-width: 150px;">Add Info</button>                
+                </div>                   
+            </div>
+        </div>
+        <!-- Trips -->
+         <div class="contents-cus" style="min-height: 850px;">
+            <div class="">
+                <nav class="nav navbar-light bg-light justify-content-sm-between">
+                    <span class="navbar-brand mb-2 h1">navbar</span>
+                </nav>
+            </div>
+            <hr>
+            <div class="container" id="">
+                <div class="row">
+                    <table class="table table-striped table-bordered" id="dataTable-example">
+                        <thead>
+                            <tr align="center">
+                                <th scope="col">ID</th>
+                                <th scope="col">Trip begin</th>
+                                <th scope="col">Trip end</th>
+                                <th scope="col">Price</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- chạy vòng lập foreach để tạo thành bảng csdl -->
+                            <tr class="odd grandeX">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td></td>
+                                <td></td>
+                                <td align="center"><i class="fa fa-trash-0 fa-fw" ><a href="#">Delete</a></i></td>
+                                <td align="" ="center"><i class="fa fa-pencil-0 fa-fw" ><a href="#">Edit</a></i></td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="text-right">
+                    <button type="button" class="btn btn-primary btn-lg" style="min-width: 150px;">Add Info</button>                
+                </div>                   
+            </div>
+        </div>   
+        <!-- Coach -->
+         <div class="contents-cus" style="min-height: 850px;">
+            <div class="">
+                <nav class="nav navbar-light bg-light justify-content-sm-between">
+                    <span class="navbar-brand mb-2 h1">navbar</span>
+                </nav>
+            </div>
+            <hr>
+            <div class="container" id="">
+                <div class="row">
+                    <table class="table table-striped table-bordered" id="dataTable-example">
+                        <thead>
+                            <tr align="center">
+                                <th scope="col">ID</th>
+                                <th scope="col">Total seats</th>
+                                <th scope="col">Note</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- chạy vòng lập foreach để tạo thành bảng csdl -->
+                            <tr class="odd grandeX">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td></td>
+                                <td align="center"><i class="fa fa-trash-0 fa-fw" ><a href="#">Delete</a></i></td>
+                                <td align="" ="center"><i class="fa fa-pencil-0 fa-fw" ><a href="#">Edit</a></i></td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="text-right">
+                    <button type="button" class="btn btn-primary btn-lg" style="min-width: 150px;">Add Info</button>                
+                </div>                   
+            </div>
+        </div>
+        <!-- Schedule -->
+         <div class="contents-cus" style="min-height: 850px;">
+            <div class="">
+                <nav class="nav navbar-light bg-light justify-content-sm-between">
+                    <span class="navbar-brand mb-2 h1">navbar</span>
+                </nav>
+            </div>
+            <hr>
+            <div class="container" id="">
+                <div class="row">
+                    <table class="table table-striped table-bordered" id="dataTable-example">
+                        <thead>
+                            <tr align="center">
+                                <th scope="col">ID</th>
+                                <th scope="col">Goes</th>
+                                <th scope="col">Arrival</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- chạy vòng lập foreach để tạo thành bảng csdl -->
+                            <tr class="odd grandeX">
+                                <th scope="row">1</th>
+                                <td></td>
+                                <td></td>
+                                <td align="center"><i class="fa fa-trash-0 fa-fw" ><a href="#">Delete</a></i></td>
+                                <td align="" ="center"><i class="fa fa-pencil-0 fa-fw" ><a href="#">Edit</a></i></td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="text-right">
+                    <button type="button" class="btn btn-primary btn-lg" style="min-width: 150px;">Add Info</button>                
+                </div>                   
+            </div>
+        </div>
+
+    <!-- form add Staff -->
+    <div id="ticked" class="container" align="center">
+        <div class="col-md-6">
+           <div class="translucent-form-overlay">
+                <form>
+                    <h3>Staff Information</h3>
+                    <div class="row columns">
+                      <label>ID
+                        <input type="text" name="#" placeholder="ID">
+                      </label>
+                    </div>
+                    <div class="row columns">
+                      <label>Staff User Name
+                        <input type="text" name="#" placeholder="name">
+                      </label>
+                    </div>
+                    <div class="row columns">
+                      <label>Staff Full Name
+                        <input type="text" name="#" placeholder="full name">
+                      </label>
+                    </div>
+                    <div class="row columns">
+                      <label>Password
+                        <input type="text" name="#" placeholder="Password">
+                      </label>
+                    </div>
+                    <button type="button" class="primary button expanded search-button">
+                      Add
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- orderticket -->
+    <div id="ticked" class="container">
+        <div class="row contain-seats">
+            <div class="col-xl-6 ">
+                <form>
+                    <div class="row">
+                        <div class="col-xl-6 form-group">
+                            <label for="begin">Điểm đi</label>
+                            <select name="" id="begin" class="form-control">
+                                <option value="">Cần thơ</option>
+                                <option value="">Ang giang</option>
+                                <option value="">Kiêng Giang</option>
+                                <option value="">Hậu Giang</option>
+                            </select>
+                        </div>
+                        <div class="col-xl-6 form-group">
+                            <label for="begin">Điểm đến</label>
+                            <select name="" id="begin" class="form-control">
+                                <option value="">Cần thơ</option>
+                                <option value="">Ang giang</option>
+                                <option value="">Kiêng Giang</option>
+                                <option value="">Hậu Giang</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 form-group">
+                            <label for="begin">Ngày đi</label>
+                            <label class="control-label" for="date">Date</label>
+                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+                        </div>
+                        <div class="col-xl-6 form-group">
+                            <label for="begin">Giờ xuất phát</label>
+                            <select name="" id="begin" class="form-control">
+                                <option value="">10h</option>
+                                <option value="">15h</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6" id="seats">
+                            <div class="seats-left">
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                            </div>
+                            <div class="seats-right">
+                                <i class="fa fa-wheelchair active" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair book" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                            </div>
+                        </div> 
+                        <div class="col-xl-6 detail-seats">
+                            <div>
+                                <i class="fa fa-wheelchair active" aria-hidden="true"></i>
+                                <span>Ghế đã có ngươi chọn</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-wheelchair book" aria-hidden="true"></i>
+                                <span>Ghế bạn chon</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                <span>Ghế trống</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-6 take-bill">
+                <div class="thongtin">
+                    <h3 class="page-top">Thông tin order
+                        <small>số ghế</small>
+                    </h3>
+                </div>
+                <hr>
+                <form action="">
+                    <div class="row form-group">
+                        <label for="sdt" class="col-xl-3 col-form-label">Số điện thoại:</label>
+                        <div class="col-xl-6">
+                            <input type="text" class="form-control" id="sdt" value="" placeholder="09090909">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="sdt" class="col-xl-3 col-form-label">Họ và tên:</label>
+                        <div class="col-xl-6">
+                            <input type="text" class="form-control" id="sdt" value="" placeholder="09090909">
+                        </div>
+                    </div>
+                    <div class="row form-group" >
+                        <label for="sdt" class="col-xl-3 col-form-label">Số Ghế</label>
+                        <div class="col-xl-6">
+                            <input type="text" readonly="true" class="form-control" id="txtSoGhe" value="" placeholder="A1,A2">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row form-group">
+                        <label for="" class="col-xl-3 ">Đơn giá:</label>
+                        <div class="col-xl-6">
+                        <input class="form-control" type="text" name="" readonly="true" >
+                    </div>
+                    </div>
+                    <div class="text-center">
+                    <button type="submit" class="btn btn-lg btn-primary">Đặt</button>
+                    <button type="submit" class="btn btn-lg btn-danger">Thoát</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
     <!-- book coach -->
     <div id="ticked" class="container">
         <div class="row">
